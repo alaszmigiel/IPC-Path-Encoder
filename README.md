@@ -15,6 +15,15 @@ Through **signal handling**, the user can:
 - **Pause** (`SIGQUIT`) and **resume** (`SIGCONT`) execution, sent **to worker processes**.
 - **Enable or disable encoding** (`SIGUSR2`), sent **to worker processes**.
 
+## System Requirements
+
+This program is designed to run on **Linux** or **macOS**. 
+
+If you are using **Windows**, you need to run it inside a **Linux virtual machine** (e.g. VirtualBox).
+
+## Technical Requirements
+- C compiler 
+
 ## Installation & Usage
 
 ### 1. Clone the repository:
@@ -51,8 +60,3 @@ To remove all generated object files (`.o`) and binaries, run:
 ```sh
 make clean
 ```
-
-## System Requirements
-
-This program is designed to run on **Linux** or **macOS**. 
-If you are using **Windows**, you need to run it inside a **Linux virtual machine** (e.g., using WSL or VirtualBox).
