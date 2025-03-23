@@ -1,4 +1,4 @@
-# IPC File Processor
+# IPC Path Encoder
 
 This project demonstrates an **Inter-Process Communication (IPC) system** implementing a **Producer-Consumer** model utilizing **shared memory** and **semaphores** to enable communication between multiple processes.
 
